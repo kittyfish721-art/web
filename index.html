@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Tea 點茶</title>
+<script src="js/main.js"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Material+Symbols+Outlined:wght@100..700,0..1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-body-md text-on-surface bg-background overflow-x-hidden">
+<!-- Background Decorations -->
+<div class="watercolor-wash wash-green w-[500px] h-[500px] top-[-10%] left-[-5%]"></div>
+<div class="watercolor-wash wash-earth w-[420px] h-[420px] bottom-[10%] right-[-10%] opacity-80"></div>
+<div class="leaf-container" id="leaf-container"></div>
+<header class="bg-surface/90 backdrop-blur-md sticky top-0 z-50 border-b border-secondary/10">
+<div class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max-width mx-auto">
+<a class="flex items-center gap-4" href="index.html"><img alt="Modern Tea Logo" class="h-[48px] w-auto object-contain" src="images/img_706b9ce524.jpg"></a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="about.html">關於我們</a>
+<div class="relative group h-full flex items-center">
+    <a class="font-label-md text-black hover:text-primary transition-colors py-4 flex items-center gap-1" href="product-detail1.html">經典菜單</a>
+    <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[260px] bg-surface p-2 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-outline-variant/20 z-50 rounded-md flex flex-col py-2">
+        <a href="product-detail1.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">特調拿鐵</a>
+        <a href="product-detail2.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">濃厚參上</a>
+        <a href="product-detail4.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">冰霜奶蓋</a>
+        <a href="product-detail3.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">果茶御手</a>
+        <a href="product-detail5.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">和風輕飲</a>
+    </div>
+</div>
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="news.html">最新消息</a>
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="store.html">門市資訊</a>
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="contact.html">聯絡我們</a>
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="franchise.html">開店同盟</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer text-3xl">search</span>
+</div>
+</div>
+</header>
+<main class="relative max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop py-24">
+<section class="relative overflow-hidden rounded-[36px] border border-outline-variant/10 bg-white/80 shadow-2xl p-8 md:p-16 mb-24">
+<div class="absolute inset-0 ink-wash-bg opacity-30"></div>
+<div class="relative z-10 grid gap-12 lg:grid-cols-[1.2fr_1fr] items-center">
+<div>
+<p class="font-label-md text-primary uppercase tracking-[0.3em] mb-6">Modern Tea 點茶</p>
+<h1 class="font-headline-xl text-[4rem] leading-tight mb-6">品味靜謐，以茶為伴</h1>
+<p class="font-body-lg text-on-surface-variant max-w-2xl leading-relaxed mb-10">我們以茶香與手作甜點為核心，打造一段在繁忙之中依舊能寧靜下來的時光。從<span class="text-black">經典菜單</span>到分店空間，每一處都蘊含細膩與質感。</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="inline-flex items-center justify-center px-10 py-4 bg-primary text-black rounded-full shadow-lg hover:bg-primary/90 transition-all" href="product-detail1.html">探索經典菜單</a>
+<a class="inline-flex items-center justify-center px-10 py-4 border border-primary text-primary rounded-full hover:bg-primary/10 transition-all" href="store.html">看門市資訊</a>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-[32px] shadow-[0_40px_100px_rgba(0,0,0,0.08)]">
+<img alt="Modern Tea 店內氛圍" class="w-full h-full object-cover min-h-[420px]" src="images/img_8297ecf56e.jpg">
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+</div>
+</div>
+</section>
+<section class="grid gap-10 lg:grid-cols-3 mb-24">
+<div class="bg-surface/80 rounded-[28px] p-10 shadow-lg border border-outline-variant/20">
+<h2 class="font-headline-lg text-[28px] text-on-surface mb-6">源於自然</h2>
+<p class="text-on-surface-variant leading-relaxed">以台灣優質茶葉為核心，從茶園到杯口，每一步都講求自然與純粹。</p>
+</div>
+<div class="bg-surface/80 rounded-[28px] p-10 shadow-lg border border-outline-variant/20">
+<h2 class="font-headline-lg text-[28px] text-on-surface mb-6">細節工藝</h2>
+<p class="text-on-surface-variant leading-relaxed">從沖泡溫度、茶器造型到甜點搭配，細緻的手藝讓品茗成為一種儀式。</p>
+</div>
+<div class="bg-surface/80 rounded-[28px] p-10 shadow-lg border border-outline-variant/20">
+<h2 class="font-headline-lg text-[28px] text-on-surface mb-6">放鬆空間</h2>
+<p class="text-on-surface-variant leading-relaxed">現代日式簡約空間，讓每位客人在一杯茶中找到放鬆與充電的片刻。</p>
+</div>
+</section>
+<section class="mb-24">
+<div class="flex flex-col lg:flex-row gap-10 items-center">
+<div class="flex-1 rounded-[28px] overflow-hidden shadow-2xl relative">
+<img alt="特調拿鐵" class="w-full h-full object-cover min-h-[320px]" src="images/img_fea936b2ad.jpg">
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+<div class="absolute bottom-8 left-8 z-10 text-white">
+<p class="font-label-md uppercase tracking-[0.2em] mb-3">熱銷推薦</p>
+<h3 class="font-headline-lg text-[30px] mb-2">特調拿鐵</h3>
+<p class="text-sm text-white/80 max-w-xs">奶香與茶香完美融合，為您帶來柔和層次。</p>
+</div>
+</div>
+<div class="flex-1 grid gap-6">
+<a href="product-detail4.html" class="group block rounded-[28px] border border-outline-variant/20 bg-white/80 p-8 shadow-lg transition hover:-translate-y-1">
+<h4 class="font-headline-md text-[24px] text-on-surface mb-3">冰霜奶蓋</h4>
+<p class="text-on-surface-variant leading-relaxed">綿密奶蓋與清爽茶底，品味夏日的清新之選。</p>
+</a>
+<a href="product-detail3.html" class="group block rounded-[28px] border border-outline-variant/20 bg-white/80 p-8 shadow-lg transition hover:-translate-y-1">
+<h4 class="font-headline-md text-[24px] text-on-surface mb-3">果茶御手</h4>
+<p class="text-on-surface-variant leading-relaxed">水果香氣與茶香融合，帶來清新酸甜的午後時光。</p>
+</a>
+</div>
+</div>
+</section>
+<section class="rounded-[36px] border border-outline-variant/10 bg-surface/70 p-12 shadow-xl backdrop-blur-md">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-6">
+<div>
+<p class="font-label-md text-primary uppercase tracking-[0.3em] mb-4">探索更多</p>
+<h2 class="font-headline-xl text-[36px] mb-4">開始您的點茶旅程</h2>
+<p class="text-on-surface-variant max-w-2xl leading-relaxed">前往最新消息、門市資訊或開店同盟，了解我們的品牌故事與茶飲靈感。</p>
+</div>
+<div class="flex flex-wrap gap-4">
+<a class="inline-flex items-center justify-center px-10 py-4 bg-primary text-white rounded-full shadow-lg hover:bg-primary/90 transition-all" href="news.html">最新消息</a>
+<a class="inline-flex items-center justify-center px-10 py-4 border border-primary text-primary rounded-full hover:bg-primary/10 transition-all" href="store.html">門市資訊</a>
+<a class="inline-flex items-center justify-center px-10 py-4 border border-on-surface-variant text-on-surface rounded-full hover:bg-on-surface-10 transition-all" href="franchise.html">開店同盟</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background border-t border-outline-variant/20 py-16">
+<div class="max-w-container-max-width mx-auto px-margin-desktop text-center">
+<img alt="Modern Tea Logo" class="h-10 w-auto mx-auto mb-6" src="images/img_706b9ce524.jpg">
+<div class="flex justify-center gap-8 mb-6">
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">LINE</a>
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="font-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Facebook</a>
+</div>
+<p class="font-body-md text-on-surface-variant/70 text-[13px] tracking-widest">© 2024 Modern Tea 點茶. ALL RIGHTS RESERVED.</p>
+</div>
+</footer>
+</body>
+</html>

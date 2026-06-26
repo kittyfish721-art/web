@@ -1,0 +1,203 @@
+<!DOCTYPE html><html class="light" lang="zh-TW" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>果茶御手 - Modern Tea 點茶</title>
+<script src="js/main.js"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#e5e2dd] text-on-surface selection:bg-primary-container selection:text-on-primary-container arial-font overflow-x-hidden" style="font-family: Arial, Helvetica, sans-serif;">
+<!-- Background Decor Elements -->
+<div class="fixed inset-0 pointer-events-none z-0">
+<div class="watercolor-wash-green absolute -top-20 -left-20 w-[600px] h-[600px]"></div>
+<div class="watercolor-wash-brown absolute top-1/2 -right-40 w-[500px] h-[500px]"></div>
+<div class="watercolor-wash-green absolute -bottom-40 left-1/4 w-[700px] h-[700px]"></div>
+<!-- Scattered Leaves (Simulated SVG Icons) -->
+<span class="material-symbols-outlined leaf-float text-primary/20 text-6xl top-[15%] left-[5%] rotate-45">eco</span>
+<span class="material-symbols-outlined leaf-float text-secondary/15 text-4xl top-[45%] right-[8%] -rotate-12">potted_plant</span>
+<span class="material-symbols-outlined leaf-float text-primary/20 text-5xl bottom-[20%] left-[10%] rotate-[160deg]">eco</span>
+<span class="material-symbols-outlined leaf-float text-secondary/15 text-7xl bottom-[10%] right-[15%] rotate-90">eco</span>
+</div>
+<!-- TopNavBar -->
+<header class="bg-surface/80 backdrop-blur-sm sticky top-0 z-50 border-b border-secondary/10">
+<nav class="flex justify-between items-center w-full px-margin-desktop py-unit max-w-container-max-width mx-auto">
+<a class="flex items-center gap-4" href="index.html">
+<img alt="Modern Tea 點茶" class="h-[48px] w-auto object-contain" src="images/img_ee6f7d9719.jpg">
+</a>
+<div class="hidden md:flex gap-gutter items-center">
+    <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="about.html">關於我們</a>
+    <div class="relative group h-full flex items-center">
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors py-4 flex items-center gap-1" href="product-detail1.html">經典菜單 <span class="material-symbols-outlined text-[16px]">expand_more</span></a>
+        <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[260px] bg-surface p-2 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-outline-variant/20 z-50 rounded-md flex flex-col py-2">
+            <a href="product-detail1.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">特調拿鐵</a>
+            <a href="product-detail2.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">濃厚參上</a>
+            <a href="product-detail3.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">冰霜奶蓋</a>
+            <a href="product-detail4.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">果茶御手</a>
+            <a href="product-detail5.html" class="px-6 py-3 text-sm text-on-surface-variant hover:bg-primary/5 hover:text-primary transition-colors">和風輕飲</a>
+        </div>
+    </div>
+    <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="news.html">最新消息</a>
+    <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="store.html">門市資訊</a>
+    <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="contact.html">聯絡我們</a>
+    <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="franchise.html">開店同盟</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined cursor-pointer text-on-surface-variant hover:text-primary transition-all duration-200" data-icon="search">search</span>
+</div>
+</nav>
+</header>
+<main class="relative z-10 max-w-container-max-width mx-auto px-margin-desktop py-margin-desktop">
+<!-- Category Header - Asymmetric -->
+<section class="mb-24 flex flex-col md:flex-row items-start md:items-end gap-12">
+<div class="md:w-1/2 relative">
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase mb-4 block">Premium Collection</span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface relative inline-block">
+                    果茶御手
+                    <div class="absolute -bottom-4 left-0 w-24 h-1 bg-secondary/30"></div>
+</h1>
+</div>
+<div class="md:w-1/2 md:pl-24">
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed border-l-2 border-secondary/20 pl-8">
+                    嚴選當季鮮果，融合頂級手沖茗茶。每一口都是職人對自然韻味的堅持與致敬。
+                </p>
+</div>
+</section>
+<!-- Featured Product - Asymmetric & Magazine Style -->
+<section class="mb-32 grid md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-1"></div>
+<div class="md:col-span-6 relative group">
+<div class="watercolor-wash-green absolute -top-10 -right-10 w-64 h-64 opacity-60"></div>
+<div class="artistic-frame relative overflow-hidden">
+<img alt="果茶御手 Featured" class="w-full h-[600px] object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 ease-in-out scale-105 group-hover:scale-100" src="images/img_17fead9c8a.jpg">
+</div>
+<div class="absolute -bottom-6 -left-6 bg-surface p-4 border border-secondary/10 hidden md:block">
+<p class="text-[10px] tracking-[0.3em] uppercase text-secondary/60 vertical-lr">Summer Limited Edition</p>
+</div>
+</div>
+<div class="md:col-span-4 md:pl-12 mt-12 md:mt-0">
+<span class="font-label-md text-label-md text-secondary mb-4 block tracking-widest">夏季限定 · Seasonal Select</span>
+<h2 class="font-headline-lg text-headline-lg mb-8 leading-tight">葡萄特級904</h2>
+<div class="w-16 h-px bg-primary/40 mb-8"></div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-12 leading-loose">
+                    嚴選葡萄風味搭配特製茶底，入口散發飽滿果香，隨後帶出茶葉獨有的清雅回甘。酸甜比例恰到好處，每一口都像漫步在果園與茶園之間，清爽而不膩口。
+                </p>
+<div class="flex items-center gap-12">
+<div class="flex flex-col">
+<span class="text-xs text-secondary/50 uppercase tracking-tighter">Price / 單價</span>
+<span class="font-headline-lg text-headline-lg text-primary">NT$ 60</span>
+</div>
+<button class="bg-primary text-on-primary px-10 py-4 font-label-md text-label-md tracking-widest hover:bg-surface-tint rounded-full transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">購買</button>
+</div>
+</div>
+<div class="md:col-span-1"></div>
+</section>
+<!-- Products Grid - Magazine Style Offset -->
+<section class="mb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-y-24 gap-x-12">
+<!-- Card 1 - Offset Up -->
+<div class="md:col-span-4 md:-translate-y-12 group cursor-pointer">
+<div class="artistic-frame mb-8 overflow-hidden aspect-[4/5]">
+<img alt="Passion Fruit" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="images/img_825e9e4462.jpg">
+</div>
+<div class="px-4">
+<h3 class="font-headline-lg text-[24px] mb-3 text-on-surface">CC葡萄多多</h3>
+<p class="font-label-md text-label-md text-on-surface-variant mb-6 leading-relaxed">濃郁葡萄果香與乳酸飲的酸甜交融</p>
+<div class="flex justify-between items-center border-t border-secondary/10 pt-4">
+<span class="font-body-lg text-body-lg font-bold">NT$ 60</span>
+<div class="flex items-center gap-2 text-primary group-hover:translate-x-2 transition-transform duration-300">
+<span class="text-xs uppercase tracking-widest font-bold">Details</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2 - Centered with background wash -->
+<div class="md:col-span-4 relative group cursor-pointer">
+<div class="watercolor-wash-brown absolute inset-0 -z-10 scale-150"></div>
+<div class="artistic-frame mb-8 overflow-hidden aspect-[4/5]">
+<img alt="Lemon Honey" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="images/img_26059e9876.jpg">
+</div>
+<div class="px-4">
+<h3 class="font-headline-lg text-[24px] mb-3 text-on-surface">初見柳丁綠</h3>
+<p class="font-label-md text-label-md text-on-surface-variant mb-6 leading-relaxed">鮮榨柳丁遇上清香綠茶，酸甜平衡</p>
+<div class="flex justify-between items-center border-t border-secondary/10 pt-4">
+<span class="font-body-lg text-body-lg font-bold">NT$ 60</span>
+<div class="flex items-center gap-2 text-primary group-hover:translate-x-2 transition-transform duration-300">
+<span class="text-xs uppercase tracking-widest font-bold">Details</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 3 - Offset Down -->
+<div class="md:col-span-4 md:translate-y-12 group cursor-pointer">
+<div class="artistic-frame mb-8 overflow-hidden aspect-[4/5]">
+<img alt="Mixed Berry" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="images/img_57c4871ec2.jpg">
+</div>
+<div class="px-4">
+<h3 class="font-headline-lg text-[24px] mb-3 text-on-surface">甘蔗檸檬青</h3>
+<p class="font-label-md text-label-md text-on-surface-variant mb-6 leading-relaxed">甘蔗清甜、檸檬微酸、青茶回甘</p>
+<div class="flex justify-between items-center border-t border-secondary/10 pt-4">
+<span class="font-body-lg text-body-lg font-bold">NT$ 60</span>
+<div class="flex items-center gap-2 text-primary group-hover:translate-x-2 transition-transform duration-300">
+<span class="text-xs uppercase tracking-widest font-bold">Details</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quote / Philosophy Section - Decorative -->
+<section class="py-32 text-center relative">
+<div class="organic-shape-mask bg-primary/5 absolute inset-0 -z-10 scale-125"></div>
+<div class="max-w-2xl mx-auto relative px-8">
+<span class="material-symbols-outlined text-primary/40 text-6xl mb-10 block" data-icon="water_drop">water_drop</span>
+<p class="font-headline-lg text-headline-lg font-bold text-on-surface leading-[1.8] mb-12">
+                    「以茶引味，以果傳情。」
+                </p>
+<div class="flex items-center justify-center gap-4 mb-10">
+<div class="w-12 h-px bg-secondary/30"></div>
+<span class="material-symbols-outlined text-secondary/40 text-lg">eco</span>
+<div class="w-12 h-px bg-secondary/30"></div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-loose tracking-wide">
+                    我們相信每一顆果實都承載著季節的對話。<br>
+                    堅持不添加人工香料，只為呈現大自然最初的甘美。
+                </p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface border-t border-secondary/10 relative z-10">
+<div class="flex flex-col md:flex-row justify-between items-center w-full px-margin-desktop py-16 max-w-container-max-width mx-auto">
+<div class="mb-12 md:mb-0 text-center md:text-left">
+<img alt="Modern Tea 點茶" class="h-[48px] w-auto object-contain mb-3 mx-auto md:mx-0" src="images/img_08463c9ed4.jpg">
+<p class="font-body-md text-body-md text-on-surface-variant opacity-70">© 2024 Modern Tea 點茶. All rights reserved.</p>
+</div>
+<div class="flex gap-12">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-all duration-300 hover:scale-110" href="#">LINE</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-all duration-300 hover:scale-110" href="#">Instagram</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-all duration-300 hover:scale-110" href="#">Facebook</a>
+</div>
+</div>
+</footer>
+<!-- Back to top micro-interaction -->
+<button class="fixed bottom-12 right-12 bg-white/80 backdrop-blur-md border border-secondary/20 w-14 h-14 rounded-full flex items-center justify-center opacity-0 transition-all duration-500 z-50 shadow-lg hover:bg-primary hover:text-white group" id="back-to-top">
+<span class="material-symbols-outlined text-primary group-hover:text-white transition-colors duration-300" data-icon="expand_less">expand_less</span>
+</button>
+
+
+
+
+
+
+
+
+
+</body></html>
